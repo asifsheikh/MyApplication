@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (isConnectionExist) {
                     showAlertDialog(MainActivity.this, "Internet Connection",
-                            "Your device has WIFI internet access", true);
+                            "Your device has WIFI internet access.. congrats", true);
 
                 } else {
                     showAlertDialog(MainActivity.this, "Internet Connection",
